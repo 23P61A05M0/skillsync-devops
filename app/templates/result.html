@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>{{ role }} Roadmap</h2>
+
+    <ul>
+        {% for step in roadmap %}
+            <li>{{ step }}</li>
+        {% endfor %}
+    </ul>
+
+    <a href="/">Go Back</a>
+</body>
+</html>
