@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/your-username/skillsync-devops.git'
+                git 'https://github.com/23P61A05M0/skillsync-devops.git'
             }
         }
 
